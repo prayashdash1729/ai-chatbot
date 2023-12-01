@@ -42,6 +42,9 @@ class PageStyle:
                 border-radius: 1.0rem;
                 padding: 1.0rem;
             }}
+            .st-ah {{
+                width: 95%;
+            }}
             # [data-testid="baseButton-secondary"]{{
             #     background-color: #0CBAFF;
             #     background-color: rgba(12,186,255,0.5);
