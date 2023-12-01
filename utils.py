@@ -36,12 +36,18 @@ class PageStyle:
             [data-testid="stToolbar"] {{
                 right: 2rem;
             }}
-            [data-testid="stHorizontalBlock"]{{
+            [data-testid="stVerticalBlock"]{{
                 background-color: #fff;
                 background-color: rgba(255,255,255,0.5);
                 border-radius: 1.0rem;
                 padding: 1.0rem;
             }}
+            # [data-testid="baseButton-secondary"]{{
+            #     background-color: #0CBAFF;
+            #     background-color: rgba(12,186,255,0.5);
+            #     # border-radius: 1.0rem;
+            #     # padding: 1.0rem;
+            # }}
         </style>
         """
         return page_style
